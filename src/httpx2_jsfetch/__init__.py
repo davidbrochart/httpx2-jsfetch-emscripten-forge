@@ -252,7 +252,7 @@ class AsyncEmscriptenStream(AsyncByteStream):
             if result_js.done:
                 return
             else:
-                yield result_js.value.to_py()
+                yield result_js.value.to_py().tobytes()
 
     async def aclose(self) -> None:
         self._stream_js = None
