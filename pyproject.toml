@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "httpx2-jsfetch-emscripten-forge"
 description = "httpx2 transports for emscripten-forge."
 readme = "README.md"
-version = "0.1.1"
+version = "0.1.2"
 authors = [
   { name = "Hood Chatham", email = "roberthoodchatham@gmail.com" },
   { name = "David Brochart", email = "david.brochart@gmail.com" },
